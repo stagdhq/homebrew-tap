@@ -2,30 +2,30 @@
 class Stagd < Formula
   desc "Live, seeded preview environments for every pull request"
   homepage "https://stagd.dev"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/stagdhq/stagd/releases/download/v0.3.0/stagd_darwin_arm64.tar.gz"
-      sha256 "9d07bdea560c58ed8d77328923826b56c403f164cf0cd3f34c536b312c320a94"
+      url "https://github.com/stagdhq/stagd/releases/download/v0.4.0/stagd_darwin_arm64.tar.gz"
+      sha256 "ed3bb35df5cfb53d37980daeb54b9017e377bdbea3fe2faa2e230363b877327c"
     end
 
     on_intel do
-      url "https://github.com/stagdhq/stagd/releases/download/v0.3.0/stagd_darwin_amd64.tar.gz"
-      sha256 "542f9b1b9e184881215a74c5ab602c944b999f939eff6a02bb3cb00f76ca7f93"
+      url "https://github.com/stagdhq/stagd/releases/download/v0.4.0/stagd_darwin_amd64.tar.gz"
+      sha256 "afc5dcc362bf33db508d64605937c1118f7e0f32f8abaef9514eff0bf8a5e399"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stagdhq/stagd/releases/download/v0.3.0/stagd_linux_arm64.tar.gz"
-      sha256 "7073e10851dcaca9e260c37abca878636a0ba5473b6b29e4633139589281d077"
+      url "https://github.com/stagdhq/stagd/releases/download/v0.4.0/stagd_linux_arm64.tar.gz"
+      sha256 "704090f2e3a4c7da65554d8127960b0b024a998d4ae63d0021f13e3a0d21eca3"
     end
 
     on_intel do
-      url "https://github.com/stagdhq/stagd/releases/download/v0.3.0/stagd_linux_amd64.tar.gz"
-      sha256 "3205c606d766a7320c8df50d0a762558dc088d8f216607526f68c9e4fd53d4d6"
+      url "https://github.com/stagdhq/stagd/releases/download/v0.4.0/stagd_linux_amd64.tar.gz"
+      sha256 "163509f1968c75f11de7a7405f37442189220c99b3ffd23f472bcc49f2608ca0"
     end
   end
 
