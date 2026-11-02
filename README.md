@@ -15,3 +15,7 @@ brew trust stagdhq/tap
 `Casks/stagd.rb` is written by the [stagd repository's release workflow](https://github.com/stagdhq/stagd/blob/main/.github/workflows/release.yaml) for each release, from the release's checksums: don't edit it by hand.
 
 Other ways to install, and what `stagd` does: [github.com/stagdhq/stagd](https://github.com/stagdhq/stagd).
+
+## License
+
+[Apache License 2.0](LICENSE).
